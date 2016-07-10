@@ -1,0 +1,13 @@
+<h1 class="heading">ユーザー一覧</h1>
+
+<ul class="user-list">
+  <% @users.each do |user| %>
+  <li>
+    <!-- user_helperのimage_forヘルパーを呼び出してユーザーの画像を表示する -->
+    <%= image_for(user) %>
+
+    <%= link_to user.name, user %> |
+    <%= user.email %>
+  </li>
+  <% end %>
+</ul>
