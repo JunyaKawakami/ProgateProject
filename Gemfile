@@ -52,3 +52,7 @@ gem 'pry-rails', '0.3.4'
 gem 'hirb', '0.7.3'
 
 gem 'devise'
+
+gem 'nokogiri', '~> 1.6.8.rc2'
+
+gem 'coffee-script-source', '1.8.0'
